@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolejki Fizjo – Rozwijane rubryki + Kineza + Sollux</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: { extend: {
+          colors: { brand: { 50:'#eef3ff',100:'#dce7ff',200:'#b9cfff',300:'#95b7ff',400:'#709fff',500:'#4c87ff',600:'#2b69e6',700:'#1f52b4',800:'#173d84',900:'#112a5a' } }
+        }},
+        darkMode: 'class'
+      };
+    </script>
+    <style>body{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}</style>
+  </head>
+  <body class="bg-white text-brand-900 dark:bg-brand-900 dark:text-white">
+    <div id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
